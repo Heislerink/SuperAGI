@@ -77,6 +77,7 @@ app.add_middleware(DBSessionMiddleware, db_url=db_url)
 # Configure CORS middleware
 origins = [
     # Add more origins if needed
+    "https://heislerink-didactic-potato-w6q4j4pwwg7cxrg-3000.preview.app.github.dev/"
     "*",  # Allow all origins
 ]
 

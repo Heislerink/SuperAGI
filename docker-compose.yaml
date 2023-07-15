@@ -24,7 +24,7 @@ services:
   gui:
     build: ./gui
     environment:
-      - NEXT_PUBLIC_API_BASE_URL=/api
+      - NEXT_PUBLIC_API_BASE_URL=https://heislerink-didactic-potato-w6q4j4pwwg7cxrg-8001.preview.app.github.dev/
     networks:
       - super_network
 #    volumes:
